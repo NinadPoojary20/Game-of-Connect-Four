@@ -183,7 +183,6 @@ public class Code{
                     System.out.println("Player Yellow is Winner.");
                 break;
             }
-        System.out.println(win);
             full++;
         }
         if(full > (row * col))
