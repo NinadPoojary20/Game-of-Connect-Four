@@ -172,7 +172,7 @@ public class Code{
                     cnt=1;
                 }
             }
-            else if(cnr == 1){                      // '1' indicate the 'yellow' colour.
+            else if(cnt == 1){                      // '1' indicate the 'yellow' colour.
                 int yel = forYellow(a);             // forYellow() return '0' or '1'.
                 if(yel == 0){                       // if 'yel' is '0' then the 'y' is entered in the array.
                     print(a);
